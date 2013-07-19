@@ -11,15 +11,15 @@ owner:
   avatar:         tuix-logo.png
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        tuixium
+  twitter:        "tuixium"
   facebook:       
-  github:         tuix
-  linkedin:       mohsennosratinia
+  github:         "tuix"
+  linkedin:       "mohsennosratinia"
   instagram:      
   flickr:         
-  tumblr:         tuix
+  tumblr:         "tuix"
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:    "https://plus.google.com/107793453232502516716/posts"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
