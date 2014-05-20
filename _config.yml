@@ -1,68 +1,7 @@
-title:            tuix
-description:      Personal Website of Mohsen Nosratinia
-logo:             tuix-logo.png
-disqus_shortname: tuix
-#Comment out url when working locally to resolve base urls correctly
-url:              http://tuix.github.io
+markdown: redcarpet
+pygments: true
 
-# Owner/author information
-owner:
-  name:           Mohsen Nosratinia
-  avatar:         tuix-logo.png
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        "tuixium"
-  facebook:       
-  github:         "tuix"
-  stackexchange:  "http://stackoverflow.com/users/1292374/mohsen-nosratinia"
-  linkedin:       "mohsennosratinia"
-  instagram:      
-  flickr:         
-  tumblr:         "tuix"
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/107793453232502516716"
+title_tag_text: Mohsen Nosratinia
+h1_tag_text: Mohsen Nosratinia
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about
-  - title: Articles
-    url: /articles
-  - title: MATLAB
-    url: /matlab
-  - title: tuix
-    url: http://tuix.github.io
-    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Stockholm
-future:      true
-pygments:    true
-markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
+exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
